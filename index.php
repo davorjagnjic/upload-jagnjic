@@ -96,7 +96,7 @@
             }
         
         function deleteImage(imageId) {
-                if(confirm('Are you sure you want to delete this image?')) {
+                if(confirm('Jeste li sigurni da želite obrisati sliku?')) {
                     window.location.href = 'delete.php?id=' + imageId;
                 }
             }
